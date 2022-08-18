@@ -1,0 +1,36 @@
+.Container {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.button {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
